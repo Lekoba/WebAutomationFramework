@@ -10,7 +10,6 @@ import utilities.baseTest;
 public class clientChecksForPersonalLoansTestOnFirefox extends baseTest
 {
     applicationFunctions applicationFunctions = new  applicationFunctions();
-    applicationSpecific applicationSpec = new applicationSpecific();
 
     @BeforeTest
     public void setUpTest()
