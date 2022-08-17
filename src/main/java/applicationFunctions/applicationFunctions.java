@@ -113,7 +113,7 @@ public class applicationFunctions extends baseTest
                 Thread.sleep(2000);
                 if(webActionHelpers.checkIsDisplayed(driver, personalLoansCalcultor.getNextButton()))
                 {
-                    webActionHelpers.scrollDown(driver);
+                    //webActionHelpers.scrollDown(driver);
                     webActionHelpers.scrollDown(driver);
                     webActionHelpers.clickElement(driver,personalLoansCalcultor.getHowMuchNeededList());
 
